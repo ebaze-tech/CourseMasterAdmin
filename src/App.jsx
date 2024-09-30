@@ -29,6 +29,7 @@ function App() {
         <Route path="/admin/leaderboard" element={<Leaderboard />} />
         <Route path="/admin/test/upload" element={<AdminTestUpload />} />
         <Route path="/admin" element={<AdminHomePage />} />
+        <Route path="/" element={<AdminHomePage />} />
       </Routes>
     </Router>
   );
