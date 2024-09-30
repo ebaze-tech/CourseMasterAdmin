@@ -18,18 +18,22 @@ const AdminHomePage = () => {
         // overflowY:"hidden"
       }}
     >
-      <Container maxWidth="md" sx={{ textAlign: "center", color: "black" }}>
+      <Container
+        maxWidth="md"
+        sx={{ textAlign: "center", color: "black", marginTop: "10rem" }}
+      >
         {/* Animated Introduction Text */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 1.2 }}
         >
           <Typography
             variant="h2"
             color="black"
             fontWeight="bold"
-            marginTop="1.5rem"
+            fontSize="2.5rem"
+            marginTop={30}
             gutterBottom
           >
             Admin Dashboard
