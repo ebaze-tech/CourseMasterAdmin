@@ -54,11 +54,12 @@ const AdminHomePage = () => {
           transition={{ delay: 1, duration: 0.8 }}
         >
           <Box
-            mt={4}
+            // mt={4}
             gap={20}
             alignItems="center"
             justifyContent="center"
             justifyItems="center"
+            verticalAlign="center"
           >
             <Button
               variant="outlined"
