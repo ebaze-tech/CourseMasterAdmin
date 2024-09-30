@@ -82,7 +82,7 @@ const AdminLoginForm = () => {
             gutterBottom
             align="center"
             color="primary"
-            sx={{ fontWeight: "bold" }}
+            sx={{ fontWeight: "bold", marginTop: "4px" }}
           >
             Admin Login
           </Typography>
