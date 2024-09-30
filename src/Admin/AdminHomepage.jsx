@@ -92,7 +92,7 @@ const AdminHomePage = () => {
               size="medium"
               onClick={() => navigate("/login/admin")}
               sx={{
-                padding: "20px 100px",
+                padding: "20px 80px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
                 height: "4rem",
@@ -102,7 +102,7 @@ const AdminHomePage = () => {
                 marginTop: "3rem",
               }}
             >
-              Manage Tests
+              View Tests
             </Button>
           </Box>{" "}
           <Box
@@ -119,7 +119,7 @@ const AdminHomePage = () => {
               size="medium"
               onClick={() => navigate("/login/admin")}
               sx={{
-                padding: "20px 100px",
+                padding: "20px 80px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
                 height: "4rem",
