@@ -15,13 +15,11 @@ const AdminHomePage = () => {
         justifyContent: "center",
         alignItems: "center",
         color: "black",
+        marginTop: "2rem",
         // overflowY:"hidden"
       }}
     >
-      <Container
-        maxWidth="md"
-        sx={{ textAlign: "center", color: "black", marginTop: "10rem" }}
-      >
+      <Container maxWidth="md" sx={{ textAlign: "center", color: "black" }}>
         {/* Animated Introduction Text */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -80,7 +78,7 @@ const AdminHomePage = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
-          <Box mt={4} gap={20}>
+          <Box mt={4} gap={20} alignItems="center" justifyContent="center" justifyItems="center">
             <Button
               variant="contained"
               color="primary"
