@@ -84,7 +84,7 @@ const AdminHomePage = () => {
               //   onClick={() => navigate("/admin/tests")}
               sx={{
                 // marginRight: "20px",
-                padding: "10px 40px",
+                padding: "10px 60px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
                 backgroundColor: "blueviolet",
@@ -102,7 +102,7 @@ const AdminHomePage = () => {
               size="large"
               //   onClick={() => navigate("/admin/leaderboard")}
               sx={{
-                padding: "10px 40px",
+                padding: "10px 60px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
                 backgroundColor: "#f50057",
