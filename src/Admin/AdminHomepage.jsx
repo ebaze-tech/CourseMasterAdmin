@@ -99,7 +99,7 @@ const AdminHomePage = () => {
                 backgroundColor: "blueviolet",
                 height: "4rem",
                 borderRadius: "0.8rem",
-                cursor: "none",
+                cursor: "pointer",
                 marginTop: "3rem",
               }}
             >
@@ -126,7 +126,7 @@ const AdminHomePage = () => {
                 backgroundColor: "#f50057",
                 height: "4rem",
                 borderRadius: "0.8rem",
-                cursor: "none",
+                cursor: "pointer",
                 marginTop: "3rem",
               }}
             >
