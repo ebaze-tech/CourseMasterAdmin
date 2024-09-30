@@ -93,7 +93,7 @@ const AdminDashboard = () => {
         display="flex"
         justifyContent="center"
         alignItems="center"
-        height="100vh"
+        // height="100vh"
       >
         <CircularProgress />
       </Box>
