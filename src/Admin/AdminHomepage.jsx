@@ -108,6 +108,7 @@ const AdminHomePage = () => {
                 height: "4rem",
                 borderRadius: "0.8rem",
                 cursor: "none",
+                marginTop: "2rem",
               }}
             >
               View Analytics
