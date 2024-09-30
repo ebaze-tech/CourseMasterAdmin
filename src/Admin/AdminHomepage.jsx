@@ -15,7 +15,7 @@ const AdminHomePage = () => {
         justifyContent: "center",
         alignItems: "center",
         color: "black",
-        marginTop: "2rem",
+        // marginTop: "2rem",
         // overflowY:"hidden"
       }}
     >
@@ -31,7 +31,7 @@ const AdminHomePage = () => {
             color="black"
             fontWeight="bold"
             fontSize="2.5rem"
-            marginTop={30}
+            marginTop={5}
             gutterBottom
           >
             Admin Dashboard
