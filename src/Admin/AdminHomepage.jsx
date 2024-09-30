@@ -25,14 +25,20 @@ const AdminHomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <Typography variant="h2" color="black" fontWeight="bold" gutterBottom>
+          <Typography
+            variant="h2"
+            color="black"
+            fontWeight="bold"
+            marginTop="5rem"
+            gutterBottom
+          >
             Admin Dashboard
           </Typography>
           <Typography
             variant="h6"
             color="black"
             fontSize="1.5rem"
-            marginTop="15px"
+            marginTop="5rem"
             gutterBottom
           >
             Manage tests, view submissions, and track platform progress
@@ -75,7 +81,7 @@ const AdminHomePage = () => {
               variant="contained"
               color="primary"
               size="large"
-            //   onClick={() => navigate("/admin/tests")}
+              //   onClick={() => navigate("/admin/tests")}
               sx={{
                 marginRight: "20px",
                 padding: "10px 40px",
@@ -84,7 +90,7 @@ const AdminHomePage = () => {
                 backgroundColor: "blueviolet",
                 height: "4rem",
                 borderRadius: "0.8rem",
-                cursor:"none"
+                cursor: "none",
               }}
             >
               Manage Tests
@@ -93,7 +99,7 @@ const AdminHomePage = () => {
               variant="contained"
               color="secondary"
               size="large"
-            //   onClick={() => navigate("/admin/leaderboard")}
+              //   onClick={() => navigate("/admin/leaderboard")}
               sx={{
                 padding: "10px 40px",
                 fontSize: "1.2rem",
@@ -101,7 +107,7 @@ const AdminHomePage = () => {
                 backgroundColor: "#f50057",
                 height: "4rem",
                 borderRadius: "0.8rem",
-                cursor:"none"
+                cursor: "none",
               }}
             >
               View Analytics
@@ -125,7 +131,13 @@ const AdminHomePage = () => {
               textAlign: "left",
             }}
           >
-            <Typography variant="h4" gutterBottom color="primary" textAlign="center" marginBottom="1.8rem">
+            <Typography
+              variant="h4"
+              gutterBottom
+              color="primary"
+              textAlign="center"
+              marginBottom="1.8rem"
+            >
               Admin Capabilities
             </Typography>
             <Typography variant="h6" prop marginBottom="1.4rem">
