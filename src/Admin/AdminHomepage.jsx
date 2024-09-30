@@ -92,7 +92,7 @@ const AdminHomePage = () => {
               size="large"
               onClick={() => navigate("/login/admin")}
               sx={{
-                padding: "10px 100px",
+                padding: "20px 100px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
                 height: "4rem",
@@ -119,7 +119,7 @@ const AdminHomePage = () => {
               size="large"
               onClick={() => navigate("/login/admin")}
               sx={{
-                padding: "10px 100px",
+                padding: "20px 100px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
                 height: "4rem",
