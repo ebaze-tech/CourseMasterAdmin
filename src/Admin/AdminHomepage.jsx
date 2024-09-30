@@ -53,7 +53,13 @@ const AdminHomePage = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          <Box mt={4}>
+          <Box
+            mt={4}
+            gap={20}
+            alignItems="center"
+            justifyContent="center"
+            justifyItems="center"
+          >
             <Button
               variant="outlined"
               color="primary"
@@ -69,16 +75,7 @@ const AdminHomePage = () => {
               }}
             >
               Login
-            </Button>
-          </Box>
-        </motion.div>
-        {/* Admin Action Buttons */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8, duration: 0.8 }}
-        >
-          <Box mt={4} gap={20} alignItems="center" justifyContent="center" justifyItems="center">
+            </Button>{" "}
             <Button
               variant="contained"
               color="primary"
