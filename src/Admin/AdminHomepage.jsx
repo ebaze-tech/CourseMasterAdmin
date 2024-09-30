@@ -29,7 +29,7 @@ const AdminHomePage = () => {
             variant="h2"
             color="black"
             fontWeight="bold"
-            marginTop="5rem"
+            marginTop="3rem"
             gutterBottom
           >
             Admin Dashboard
@@ -38,7 +38,7 @@ const AdminHomePage = () => {
             variant="h6"
             color="black"
             fontSize="1.5rem"
-            marginTop="5rem"
+            marginTop="2.7rem"
             gutterBottom
           >
             Manage tests, view submissions, and track platform progress
@@ -76,7 +76,7 @@ const AdminHomePage = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
-          <Box mt={4}>
+          <Box mt={4} gap="2rem">
             <Button
               variant="contained"
               color="primary"
