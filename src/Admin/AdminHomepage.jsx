@@ -76,7 +76,7 @@ const AdminHomePage = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
-          <Box mt={4} gap="2rem">
+          <Box mt={4} gap={5}>
             <Button
               variant="contained"
               color="primary"
