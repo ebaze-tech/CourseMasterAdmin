@@ -29,7 +29,7 @@ const AdminHomePage = () => {
             variant="h2"
             color="black"
             fontWeight="bold"
-            marginTop="3rem"
+            marginTop="2rem"
             gutterBottom
           >
             Admin Dashboard
