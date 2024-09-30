@@ -92,14 +92,13 @@ const AdminHomePage = () => {
               size="large"
               onClick={() => navigate("/login/admin")}
               sx={{
-                // marginRight: "20px",
-                padding: "10px 61px",
+                padding: "10px 100px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
-                backgroundColor: "blueviolet",
                 height: "4rem",
                 borderRadius: "0.8rem",
                 cursor: "pointer",
+                backgroundColor: "blueviolet",
                 marginTop: "3rem",
               }}
             >
@@ -120,13 +119,13 @@ const AdminHomePage = () => {
               size="large"
               onClick={() => navigate("/login/admin")}
               sx={{
-                padding: "10px 61px",
+                padding: "10px 100px",
                 fontSize: "1.2rem",
                 fontWeight: "bold",
-                backgroundColor: "#f50057",
                 height: "4rem",
                 borderRadius: "0.8rem",
                 cursor: "pointer",
+                backgroundColor: "#f50057",
                 marginTop: "3rem",
               }}
             >
