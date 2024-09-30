@@ -77,44 +77,62 @@ const AdminHomePage = () => {
             >
               Login
             </Button>
+          </Box>
+          <Box
+            // mt={4}
+            // gap={20}
+            alignItems="center"
+            justifyContent="center"
+            justifyItems="center"
+            verticalAlign="center"
+          >
+            <Button
+              variant="contained"
+              color="primary"
+              size="large"
+              //   onClick={() => navigate("/admin/tests")}
+              sx={{
+                // marginRight: "20px",
+                padding: "10px 66px",
+                fontSize: "1.2rem",
+                fontWeight: "bold",
+                backgroundColor: "blueviolet",
+                height: "4rem",
+                borderRadius: "0.8rem",
+                cursor: "none",
+                marginTop: "3rem",
+              }}
+            >
+              Manage Tests
+            </Button>
           </Box>{" "}
-          <Button
-            variant="contained"
-            color="primary"
-            size="large"
-            //   onClick={() => navigate("/admin/tests")}
-            sx={{
-              // marginRight: "20px",
-              padding: "10px 66px",
-              fontSize: "1.2rem",
-              fontWeight: "bold",
-              backgroundColor: "blueviolet",
-              height: "4rem",
-              borderRadius: "0.8rem",
-              cursor: "none",
-              marginTop: "3rem",
-            }}
+          <Box
+            // mt={4}
+            // gap={20}
+            alignItems="center"
+            justifyContent="center"
+            justifyItems="center"
+            verticalAlign="center"
           >
-            Manage Tests
-          </Button>{" "}
-          <Button
-            variant="contained"
-            color="secondary"
-            size="large"
-            //   onClick={() => navigate("/admin/leaderboard")}
-            sx={{
-              padding: "10px 66px",
-              fontSize: "1.2rem",
-              fontWeight: "bold",
-              backgroundColor: "#f50057",
-              height: "4rem",
-              borderRadius: "0.8rem",
-              cursor: "none",
-              marginTop: "3rem",
-            }}
-          >
-            View Analytics
-          </Button>
+            <Button
+              variant="contained"
+              color="secondary"
+              size="large"
+              //   onClick={() => navigate("/admin/leaderboard")}
+              sx={{
+                padding: "10px 66px",
+                fontSize: "1.2rem",
+                fontWeight: "bold",
+                backgroundColor: "#f50057",
+                height: "4rem",
+                borderRadius: "0.8rem",
+                cursor: "none",
+                marginTop: "3rem",
+              }}
+            >
+              View Analytics
+            </Button>
+          </Box>
         </motion.div>
 
         {/* Admin Info Section */}
