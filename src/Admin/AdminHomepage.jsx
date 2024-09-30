@@ -89,7 +89,7 @@ const AdminHomePage = () => {
             <Button
               variant="contained"
               color="primary"
-              size="large"
+              size="medium"
               onClick={() => navigate("/login/admin")}
               sx={{
                 padding: "20px 100px",
@@ -116,7 +116,7 @@ const AdminHomePage = () => {
             <Button
               variant="contained"
               color="secondary"
-              size="large"
+              size="medium"
               onClick={() => navigate("/login/admin")}
               sx={{
                 padding: "20px 100px",
