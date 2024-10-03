@@ -19,7 +19,7 @@ const Login = () => {
         setError("");
 
         // Validate inputs
-        if (!adminNumber || !password) {
+        if (!adminNumber && !password) {
             setError("Admin number and password are required!");
             return;
         }
