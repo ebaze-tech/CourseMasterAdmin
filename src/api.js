@@ -19,4 +19,3 @@ API.interceptors.request.use(
 );
 
 export default API;
-.
