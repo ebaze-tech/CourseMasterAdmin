@@ -8,7 +8,7 @@ import {
 import AdminTestView from "./Admin/AdminSubmittedTests";
 import TestDetails from "./Admin/AdminTestDetails";
 import "./App.css";
-import AdminLoginForm from "./Admin/AdminLogin";
+import AdminLoginForm from "./Admin/Login";
 import AdminDashboard from "./Admin/AdminDashboard";
 import AdminRegisterForm from "./Admin/AdminRegister";
 import Leaderboard from "./Admin/Leaderboard";
